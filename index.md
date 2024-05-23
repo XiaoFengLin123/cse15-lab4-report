@@ -19,3 +19,16 @@ Step 6: Cd into lab7 and compile the test
 
 Keys pressed: `ls` `<enter>` `cd lab7` `<enter>` `CTRL-C` javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java `CTRL-V` `<enter>` `CTRL-C` java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore `CTRL-V`
 `<space>` ListExamplesTests `<enter>`
+
+I want to `cd` into the `lab7` directory and use `ls` to see if I can. I copy and paste the `javac` to compile all of the java files within the `lab7` directory and then use `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` will run/execute the tests within the ListExamplesTests. 
+
+Step 7: Edit ListExamples.java using vim swap index1 with index2.  
+
+![image](https://github.com/XiaoFengLin123/cse15-lab4-report/assets/146484956/59cebe16-fc5e-4950-98db-6f26cf536cc4)
+
+Keys pressed: 
+
+`ls` `<enter>` `vim ListExamples.java` `<enter>` `43j` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>`
+`ce` <esc> :wq <enter>
+
+Used `ls` to locate the `ListExamples.java` file. then use `43j` command dto move the cursor down to the line that requires changing. Move right 6 times to the first letter in index1 and do ce to delete and edit it to index2. I then save the file by `esc` and then using the command `:wq`to save the file. 
