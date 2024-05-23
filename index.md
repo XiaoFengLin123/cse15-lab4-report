@@ -40,7 +40,7 @@ Step 8: Recompile and run the code with the correct code.
 
 Keys Pressed: <up><up><up><up> <enter> <up><up><up><up> <enter>. 
 
-The javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java was 4 up in the search history so I used the up arrow to access it. The java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests was 4 up in history, so I accessed it and ran the code. All of the tests passed. 
+The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` was 4 up in the search history so I used the up arrow to access it. The `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` was 4 up in history, so I accessed it and ran the code. All of the tests passed. 
 
 Step 9: Git clone
 
