@@ -6,7 +6,7 @@ Step 4: ssh into the ieng6 server.
 
 I typed the command `ssh xil245@ieng6.ucsd..edu` to remotely access the ieng6 server with my username xil245. 
 
-Step 5: git clone https://github.com/ucsd-cse15l-s24/lab7
+Step 5: git clone https://github.com/XiaoFengLin123/lab7
 
 ![image](https://github.com/XiaoFengLin123/cse15-lab4-report/assets/146484956/1dd55a4a-b6d6-47f4-9a67-17f180801b26)
 
@@ -41,5 +41,12 @@ Step 8: Recompile and run the code with the correct code.
 Keys Pressed: <up><up><up><up> <enter> <up><up><up><up> <enter>. 
 
 The javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java was 4 up in the search history so I used the up arrow to access it. The java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests was 4 up in history, so I accessed it and ran the code. All of the tests passed. 
+
+Step 9: 
+
+![image](https://github.com/XiaoFengLin123/cse15-lab4-report/assets/146484956/e1e55a43-d710-444a-93f5-bedd192cab51)
+![image](https://github.com/XiaoFengLin123/cse15-lab4-report/assets/146484956/590d081b-3d78-43c1-a4ed-08fd0b5c4981)
+
+
 
 
