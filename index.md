@@ -42,11 +42,13 @@ Keys Pressed: <up><up><up><up> <enter> <up><up><up><up> <enter>.
 
 The javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java was 4 up in the search history so I used the up arrow to access it. The java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests was 4 up in history, so I accessed it and ran the code. All of the tests passed. 
 
-Step 9: 
+Step 9: Git clone
 
 ![image](https://github.com/XiaoFengLin123/cse15-lab4-report/assets/146484956/e1e55a43-d710-444a-93f5-bedd192cab51)
 ![image](https://github.com/XiaoFengLin123/cse15-lab4-report/assets/146484956/590d081b-3d78-43c1-a4ed-08fd0b5c4981)
 
+Keys Pressed: git add . <enter> git commit -m "finished" <enter> git push <enter>
 
 
+I committed my files with my changes, and then pushed it to my forked git repository.
 
