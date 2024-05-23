@@ -17,7 +17,7 @@ Step 6: Cd into lab7 and compile the test
 ![image](https://github.com/XiaoFengLin123/cse15-lab4-report/assets/146484956/61a50122-1cd9-4d75-83a7-00943c87774d)
 ![image](https://github.com/XiaoFengLin123/cse15-lab4-report/assets/146484956/89f72d7e-5a23-4b33-961b-53085a07d379)
 
-Keys pressed: `ls` `<enter>` `cd lab7` `<enter>` `CTRL-C` javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java `CTRL-V` `<enter>` `CTRL-C` java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore `CTRL-V`
+Keys pressed: `ls` `<enter>` `cd lab7` `<enter>` `CTRL-C` `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` `CTRL-V` `<enter>` `CTRL-C` java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore `CTRL-V`
 `<space>` ListExamplesTests `<enter>`
 
 I want to `cd` into the `lab7` directory and use `ls` to see if I can. I copy and paste the `javac` to compile all of the java files within the `lab7` directory and then use `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` will run/execute the tests within the ListExamplesTests. 
