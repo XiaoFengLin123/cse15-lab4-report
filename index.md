@@ -32,3 +32,14 @@ Keys pressed:
 `ce` <esc> :wq <enter>
 
 Used `ls` to locate the `ListExamples.java` file. then use `43j` command dto move the cursor down to the line that requires changing. Move right 6 times to the first letter in index1 and do ce to delete and edit it to index2. I then save the file by `esc` and then using the command `:wq`to save the file. 
+
+Step 8: Recompile and run the code with the correct code.
+
+![image](https://github.com/XiaoFengLin123/cse15-lab4-report/assets/146484956/212444fb-3bf2-47f0-8f45-c10b896ebf32)
+
+
+Keys Pressed: <up><up><up><up> <enter> <up><up><up><up> <enter>. 
+
+The javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java was 4 up in the search history so I used the up arrow to access it. The java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests was 4 up in history, so I accessed it and ran the code. All of the tests passed. 
+
+
