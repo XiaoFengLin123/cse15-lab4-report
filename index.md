@@ -10,7 +10,7 @@ Step 5: git clone https://github.com/XiaoFengLin123/lab7
 
 ![image](https://github.com/XiaoFengLin123/cse15-lab4-report/assets/146484956/1dd55a4a-b6d6-47f4-9a67-17f180801b26)
 
-Copy the existing repository from https://github.com/ucsd-cse15l-s24/lab7 and create a local version within my local server. `<CTRL-C>` `<CTRL-V>` `git clone` command from lab 7 instructions. 
+Copy the existing repository from https://github.com/ucsd-cse15l-s24/lab7 and create a local version within my local server. `<CTRL-C>` `<CTRL-V>` `git clone` command from lab 7 instructions (https://github.com/ucsd-cse15l-s24/lab7). 
 
 Step 6: Cd into lab7 and compile the test 
 
@@ -28,10 +28,10 @@ Step 7: Edit ListExamples.java using vim swap index1 with index2.
 
 Keys pressed: 
 
-`ls` `<enter>` `vim ListExamples.java` `<enter>` `43j` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>`
+`ls` `<enter>` `vim ListExamples.java` `<enter>` `43j` `<k>` `<k>` `<k>` `<k>` `<k>` `<k>`
 `ce` <esc> :wq <enter>
 
-Used `ls` to locate the `ListExamples.java` file. then use `43j` command dto move the cursor down to the line that requires changing. Move right 6 times to the first letter in index1 and do ce to delete and edit it to index2. I then save the file by `esc` and then using the command `:wq`to save the file. 
+Used `ls` to locate the `ListExamples.java` file. then use `gg` and then the `43j` command to move the cursor from the top of the file down to the line that requires changing. Click k 6 times to move the cursor to the first letter in index1 and do ce to delete and change it to index2. I then save the file by `esc` and then use the command `:wq` to save the file. 
 
 Step 8: Recompile and run the code with the correct code.
 
@@ -47,8 +47,8 @@ Step 9: Git clone
 ![image](https://github.com/XiaoFengLin123/cse15-lab4-report/assets/146484956/e1e55a43-d710-444a-93f5-bedd192cab51)
 ![image](https://github.com/XiaoFengLin123/cse15-lab4-report/assets/146484956/590d081b-3d78-43c1-a4ed-08fd0b5c4981)
 
-Keys Pressed: git add . <enter> git commit -m "finished" <enter> git push <enter>
+Keys Pressed: git add . <enter> git commit -m "newcode" <enter> git push <enter>
 
 
-I committed my files with my changes, and then pushed it to my forked git repository.
+I use `git add` to save my changes, then I commit my files with my changes and then push them to my forked git repository.
 
